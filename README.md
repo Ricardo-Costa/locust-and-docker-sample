@@ -5,7 +5,7 @@
 - [Docker Compose >= 1.29.*](https://docs.docker.com/compose/install/)
 
 **Start:**<br/>
-Command to start with docker-compose in detached mode with 3 works.
+Command to start with docker-compose in detached mode with 3 workers.
 
     docker-compose up --scale worker=3 -d
 
