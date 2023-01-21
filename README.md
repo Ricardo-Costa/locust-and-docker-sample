@@ -5,9 +5,9 @@
 - [Docker Compose >= 1.29.*](https://docs.docker.com/compose/install/)
 
 **Start:**<br/>
-Command to start with docker-compose in detached mode with 3 workers.
+Command to start with docker-compose and 3 workers.
 
-    docker-compose up --scale worker=3 -d
+    docker-compose up --scale worker=3
 
 Application will start at: http://localhost:8089
 
